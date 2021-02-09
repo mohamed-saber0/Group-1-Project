@@ -1,0 +1,287 @@
+* { padding: 0;  margin: 0; scroll-behavior: smooth; }
+h1,h2,h3,.h1 , span , .pp {font-family: 'Lobster', cursive;}
+p{font-family: cursive;}
+
+
+/*start section header*/
+header {  background-image: url("images/13.jpg"); background-attachment: fixed;  background-size: cover; overflow: hidden;  height: 45em; }
+.meta{ background: rgba(7,7,7,0.4); color: #FFF ; padding: 7% 0; height: 45em;}
+.meta p{ margin-bottom: 40px ;}
+.container {margin: 0 10%;}
+header article section.left img{width: 100%;}
+header article section.left { float: left; width: 50%;}
+header article section.right{ float: left; width: 40%; padding: 10% 2%; text-align: center; }
+header article section.right h1{ font-size: 50px; margin-bottom: 10%; }
+header article section.right p{ font-size:25px ; margin-bottom: 20px; }
+header article section.right a { background: none; outline: none;  border: none; border: 2px solid;  border-radius: 30px;  font-size: 20px;  cursor: pointer; padding: 10px 45px; text-decoration: none; }
+header article section.right a:active{font-size: 15px;}
+header article section.right a:hover { transition: backgrpund-color 0.5s ease-in-out;}
+/*end section header*/
+
+
+/*start section change color*/
+.fixed{ position: fixed; z-index: 99; top: 20px; left: 20px;  width: 5%; }
+ul {  list-style-type: none; overflow: hidden;  margin-bottom: 20px; }
+ul li{ width: 30px; height: 30px; float: left; margin: 10px; cursor: pointer; border-radius: 50%; }
+ul li:first-of-type{ background-color:#ffa013; }
+ul li:nth-of-type(2){ background-color: #ec625f; }
+ul li:nth-of-type(3){ background-color:  #f2855e; }
+ul li:last-of-type{  background-color:  #63707e; }
+/*en section change color*/
+
+
+/*start section scroll down*/
+#scrollUp{ position: fixed; right: 30px; bottom: 20px; display: block; color:white;  cursor: pointer; display: none; z-index: 99; transition: .2s ease; }
+#scrollUp:hover{ color: #ffa013; }
+/* end section scroll up */
+
+
+/*start section show*/
+.show{ text-align: center;  padding: 7% 0; overflow: hidden; }
+.Microsoft , .apple , .amazon , .google {cursor: pointer;}
+.Microsoft:hover{color: #7FBA00;    transition: all 0.5s ease-in-out;}
+.apple:hover{color:#000000;    transition: all 0.5s ease-in-out;}
+.google:hover{color: #4285F4;    transition: all 0.5s ease-in-out;}
+.amazon:hover{color: #FF9900;    transition: all 0.5s ease-in-out;}
+.content , .span { float: left; width: 50%; }
+.show p {font-size: 20px; line-height: 40px; margin-bottom: 30px }
+.show .one { font-size: 60px;  margin-right: 20px; margin-top: 15%; }
+.show .two{ font-size: 25px; }
+/*end section show*/
+
+
+/*start section body*/
+.body { padding: 10% 0; overflow: hidden; }
+.body .one { text-align: center;}
+.body .one .fa-5x {margin-left: 10%;}
+.body .two { overflow: hidden; margin-top: 10%; }
+.two .text { float: left;  width: 44%; padding: 0 3%; text-align: center; }
+.two .text p , .three .text p , .four .text p , .five .text p {font-size: 20px; line-height: 40px; margin-bottom: 30px; }
+.two .text span ,  .three .text span , .four .text span , .five .text span { font-size: 35px; }
+.two .text span a , .three .text span a , .four .text a , .five .text a{  cursor: pointer; border: 2px solid ; border-radius: 30px;  font-size: 30px; cursor: pointer; padding: 10px 45px; text-decoration: none; }
+.two .text span a:hover , .three .text span a:hover , .four .text a:hover , .five .text a:hover{transition: background-color   0.5s ease-in-out;}
+.two .text span a:active ,  .three .text span a:active , .four .text a:active , .five .text a:active{font-size: 25px;    cursor: pointer;}
+.two .image { float: right; width: 50%; }
+.two .image img { width: 100%; height: 30em; }
+.three .image { float: left;  width: 45%; }
+.three .image img{ margin-top: -30%; width: 100%; height: 40em; }
+.three .text { float: right;  width: 44%; padding: 4%;  text-align: center; }
+.four .image{ float: right;  width: 50%; }
+.four .image img {  width: 100%; height: 40em; }
+.four .text { float: left;  width: 45%; text-align: center;  margin-top: 5%; }
+.five .image { float: left; width: 45%; margin-top: 5%; }
+.five .image img { width: 100%; height: 30em; }
+.five .text { float: right; width: 44%; padding: 4%; text-align: center; }
+/*end section body*/
+
+
+/*Start section Our Client*/
+.client { padding: 7% 0; text-align: center; overflow: hidden; }
+.client section { float: left;  width: 20%; margin: 3%;  padding: 5% 3%; }
+.client section p {  width: 80%; padding-left: 15%;  border-left: 8px solid ; font-size: 18px; text-align: left; }
+.client section div{overflow: hidden; margin-top: 30px;}
+.client section div .left { float: left; width: 20%; }
+.client section div img{ width: 100%; border-radius: 50%; margin-right: 30px; }
+.client section div span{ margin-top: 15px; font-size: 20px; width: 50% !important;}
+/*End section Our Client*/
+
+
+/*start section our Team*/
+.ourTeam{ overflow: hidden; text-align: center;  padding: 7% 0; }
+.ourTeam section { float: left; width: 18%; margin: 1%; }
+.ourTeam section img{ width: 80%; border-radius: 50%; margin-bottom: 10%; box-shadow: 15px 15px 15px black ; padding: 5px;  border: 2px solid; }
+.ourTeam section p{ margin-bottom: 10%; font-size: 20px; }
+.ourTeam section .mm, .ii , .gg , .ff , .tt{ margin-left: 3%; font-size: 20px; }
+.ii , .gg , .ff , .tt {cursor: pointer;}
+.tt:hover{color: #1DA1F2 ;    transition: all 0.5s ease-in-out;}
+.ff:hover{color: #4267B2 ;    transition: all 0.5s ease-in-out;}
+.gg:hover{color: #4285F4 ;    transition: all 0.5s ease-in-out;}
+.ii:hover{color: #833AB4 ;    transition: all 0.5s ease-in-out;}
+/*end section our Team*/
+
+
+/* Start Section Contact Us */
+.contact-us{  background: url("images/16.jpg") no-repeat center center fixed;  min-height: 300px ; background-size: cover; overflow: hidden; text-align: center; }
+.contact-us .form {overflow: hidden;}
+.contact-us h2 { margin: 3% 0 !important; }
+.contact-us .form .one { float: left; width: 45%; }
+.contact-us input{margin: 2%; outline: none;}
+.form-control { width: 90%;  height: 46px; padding: 10px 16px; font-size: 18px; line-height: 1.33; border-radius: 6px; }
+ textarea.form-control{ height: 108px; margin: 2% 2.5%;}
+.contact-us input ,.contact-us textarea{ background: rgba(82,78,78,0.8); border: none;  color: #FFF; outline: none;}
+.contact-us textarea{height: 7.5em;}
+.meta1{ background: rgba(7,7,7,0.8); padding: 7% 0;}
+.meta1 p{ margin-bottom: 40px ;}
+.btn { background: none; outline: none; border: none; border: 2px solid ; border-radius: 30px;  font-size: 20px; cursor: pointer;  padding: 10px 45px; text-decoration: none;  margin-top: 4%;  width: 90%; }
+.btn:active{font-size: 18px;}
+.btn:hover {transition: background-color   0.5s ease-in-out;}
+/* End Section Contact Us */
+
+
+/*start cobright*/
+.copyright{ padding: 20px 0; font-size: 18px ; text-align: center; }
+.h1 { font-size: 35px; margin-bottom: 7%;}
+/*end cobright*/
+
+
+/*start main color*/
+.main header article section.right{color: white;}
+.main header article section.right h1{color: #ffa013;} }
+.main header article section.right p:last-child{ color: #535151; }
+.main header article section.right a { color: white; border-color:  #ffa013; }
+.main header article section.right a:hover {background-color: #ffa013 ; border-color: white; color: white;}
+.main #scrollUp{color:white;}
+.main #scrollUp:hover{color: #ffa013;}
+.main .show{ background-color: #252734 ;}
+.main .one a {color: white;}
+.main .show p { color: #81849d;}
+.main .show .one {  color: #ffa013 ; }
+.main .show .two{ color:#81849d;}
+.main .body { background-color: #333647 ;}
+.main .body .one {color: white; }
+.main .two .text p ,.main .three .text p ,.main .four .text p ,.main .five .text p { color: white;}
+.main .two .text p span,.main .three .text p span ,.main .four .text p span ,.main .five .text p span {color: #ffa013 ;}
+.main .two .text span , .main .three .text span ,.main .four .text span ,.main .five .text span { color: #ffa013 ;}
+.main .two .text span a ,.main .three .text span a ,.main .four .text a ,.main .five .text a{border-color: #ffa013;}
+.main .two .text span a:hover ,.main .three .text span a:hover ,.main .four .text a:hover ,.main .five .text a:hover{background-color: #ffa013 ; border-color: white; color: white;}
+.main .client {background-color: #252734 ;}
+.main .client section {background-color: #333647 ;box-shadow: 2px 2px 25px rgb(7, 7, 7);}
+.main .client section p {border-left: 8px solid #252734; color: #81849d;}
+.main .client section div span{ color: #ffa013 ; }
+.main .ourTeam{background-color: #333647;color: white;}
+.main .ourTeam section a {color:white;}
+.main .ourTeam section img{box-shadow: 3px 3px 25px black ;border: 2px solid #252734;}
+.main .ourTeam section p{ color: #ffa013 ; }
+.main .fa-headphones {color: #ffa013 ;}
+.main .contact-us input:focus ,  textarea:focus { box-shadow: 1px 1px 10px rgb(99, 136, 214); }
+.main .meta1{ color: #FFF ;}
+.main .btn {color: white;border-color:  #ffa013;}
+.main .btn:hover {background-color: #ffa013 ; border-color: white; color: white;}
+.main .copyright{ background: #252734;color: white;}
+.main .h1 {color: white;}
+.main a {color: #ffa013;}
+/*end main color*/
+
+
+
+/*start second color*/
+.second header article section.right{color: white;}
+.second header article section.right h1{color: #ec625f;} }
+.second header article section.right p:last-child{ color: #535151; }
+.second header article section.right a { color: white; border-color:  #ec625f; }
+.second header article section.right a:hover {background-color: #ec625f ; border-color: white; color: white;}
+.second #scrollUp{color:white;}
+.second #scrollUp:hover{color: #ec625f;}
+.second .show{ background-color: #525252 ;}
+.second .one a {color: white;}
+.second .show p { color: #313131;}
+.second .show .one {  color: #ec625f; }
+.second .show .two{ color:#313131}
+.second .body { background-color: #313131;}
+.second .body .one {color: white; }
+.second .two .text p ,.second .three .text p ,.second .four .text p ,.second .five .text p { color: white;}
+.second .two .text p span, .second .three .text p span ,.second .four .text p span ,.second .five .text p span {color: #ec625f;}
+.second .two .text span ,.second  .three .text span ,.second .four .text span , .second .five .text span { color: #ec625f ;}
+.second .two .text span a , .second .three .text span a ,.second .four .text a ,.second .five .text a{border-color: #ec625f;}
+.second .two .text span a:hover ,.second .three .text span a:hover ,.second .four .text a:hover , .second .five .text a:hover{background-color: #ec625f ; border-color: white; color: white;}
+.second .client {background-color: #525252;}
+.second .client section {background-color:  #313131 ;box-shadow: 2px 2px 25px rgb(63, 62, 62);}
+.second .client section p {border-left: 8px solid #525252; color: #525252;}
+.second .client section div span{ color: #ec625f ; }
+.second .ourTeam{background-color:  #313131;color: white;}
+.second .ourTeam section a {color:white;}
+.second .ourTeam section img{box-shadow: 3px 3px 25px black ;border: 2px solid #353535;}
+.second .ourTeam section p{ color: #ec625f; }
+.second .fa-headphones {color: #ec625f ;}
+.second .contact-us input:focus ,.second  textarea:focus { box-shadow: 2px 2px 25px rgb(99, 136, 214); }
+.second .contact-us input ,.second .contact-us textarea{ background: rgba(82,78,78,0.8); color: #FFF;}
+.second ::placeholder{color: white;}
+.second .meta1{ background: rgba(7,7,7,0.6); color: #FFF ; opacity: 0.6;}
+.second .btn {color: white;border-color:  #ec625f;}
+.second .btn:hover {background-color: #ec625f ; border-color: white; color: white;}
+.second .copyright{ background: #525252;color: white;}
+.second .h1 {color: white;}
+.second a {color: #ec625f;}
+/*end second color*/
+
+
+/*start third color*/
+.third header article section.right{color: white;}
+.third header article section.right h1{color: #63707e;} }
+.third header article section.right p:last-child{ color: #535151; }
+.third header article section.right a { color: white; border-color:  #63707e; }
+.third header article section.right a:hover {background-color: #63707e ; border-color: white; color: white;}
+.third #scrollUp{color:white;}
+.third #scrollUp:hover{color: #63707e;}
+.third .show{ background-color:#c8dad3 ;}
+.third .one a {color: white;}
+.third .show p { color: #81849d;}
+.third .show .one {  color: #63707e ; }
+.third .show .two{ color:#81849d;}
+.third .body { background-color:#93b5b3  ;}
+.third .body .one {color: white; }
+.third .two .text p ,.third .three .text p ,.third .four .text p ,.third .five .text p { color: white;}
+.third .two .text p span, .third .three .text p span ,.third .four .text p span ,.third .five .text p span {color: #63707e;}
+.third .two .text span , .third .three .text span ,.third .four .text span ,.third .five .text span { color: #63707e ;}
+.third .two .text span a ,.third .three .text span a ,.third .four .text a ,.third .five .text a{border-color: #63707e;}
+.third .two .text span a:hover ,.third .three .text span a:hover ,.third .four .text a:hover ,.third .five .text a:hover{background-color: #63707e; border-color: white; color: white;}
+.third .client {background-color: #c8dad3;}
+.third .client section {background-color: #93b5b3 ;box-shadow: 2px 2px 25px rgb(129, 129, 129) ;}
+.third .client section p {border-left: 8px solid #c8dad3; color: #c8dad3;}
+.third .client section div span{ color: #63707e; }
+.third .ourTeam{background-color: #93b5b3 ;color: white;}
+.third .ourTeam section a {color:white;}
+.third .ourTeam section img{box-shadow: 2px 2px 25px rgb(129, 129, 129) ;border: 2px solid #c8dad3;}
+.third .ourTeam section p{ color: #63707e; }
+.third .fa-headphones {color: #63707e;}
+.third .contact-us{color: #63707e ;}
+.third .contact-us input:focus ,  textarea:focus { box-shadow: 1px 1px 10px rgb(99, 136, 214); }
+.third .contact-us input ,.third .contact-us textarea{ background: rgba(161, 192, 192, 0.6); color: #FFF;}
+.third .meta1{ background:rgba(7,7,7,0.6); color: #FFF ;}
+.third ::placeholder{color: white;}
+.third .btn {color: white;border-color:  #63707e;}
+.third .btn:hover {background-color: #63707e; border-color: white; color: white;}
+.third .copyright{ background: #c8dad3;color: white;}
+.third .h1 {color: white;}
+.third a {color: #63707e;}
+/*end third color*/
+
+
+/*start fourth color*/
+.fourth header article section.right{color: white;}
+.fourth header article section.right h1{color: #f2855e;}
+.fourth header article section.right p:last-child{ color: #535151; }
+.fourth header article section.right a { color: white; border-color:  #f2855e; }
+.fourth header article section.right a:hover {background-color: #f2855e ; border-color: white; color: white;}
+.fourth #scrollUp{color:white;}
+.fourth #scrollUp:hover{color: #f2855e;}
+.fourth .show{ background-color: #f6f6e9 ;}
+.fourth .one a {color: white;}
+.fourth .show p { color: #81849d;}
+.fourth .show .one {  color: #f2855e ; }
+.fourth .show .two{ color:#81849d;}
+.fourth .body { background-color: #194769;}
+.fourth .body .one {color: white; }
+.fourth .two .text p ,.fourth .three .text p ,.fourth .four .text p ,.fourth .five .text p { color: white;}
+.fourth .two .text p span, .fourth .three .text p span ,.fourth .four .text p span ,.fourth .five .text p span {color: #f2855e;}
+.fourth .two .text span ,.fourth  .three .text span ,.fourth .four .text span ,.fourth .five .text span { color: #f2855e;}
+.fourth .two .text span a ,.fourth .three .text span a ,.fourth .four .text a ,.fourth .five .text a{border-color: #f2855e;}
+.fourth .two .text span a:hover ,.fourth .three .text span a:hover ,.fourth .four .text a:hover ,.fourth .five .text a:hover{background-color: #f2855e ; border-color: white; color: white;}
+.fourth .client {background-color: #f6f6e9 ;}
+.fourth .client section {background-color: #194769 ;box-shadow: 2px 2px 25px rgba(7,7,7,0.8);}
+.fourth .client section p {border-left: 8px solid #f6f6e9; color: #f6f6e9;}
+.fourth .client section div span{ color: #f2855e; }
+.fourth .ourTeam{background-color: rgb(25, 71, 105);color: white;}
+.fourth .ourTeam section a {color:white;}
+.fourth .ourTeam section img{box-shadow: 2px 2px 25px black ;border: 2px solid #f6f6e9;}
+.fourth .ourTeam section p{ color: #f2855e; }
+.fourth .fa-headphones {color: #f2855e;}
+.fourth .contact-us input:focus , .fourth textarea:focus { box-shadow: 1px 1px 10px rgb(99, 136, 214); }
+.fourth .contact-us input ,.fourth .contact-us textarea{ background: #f6f6e9; color: rgb(25, 71, 105);}
+.fourth .meta1{ background: rgba(25, 71, 105 , 0.4);; color: #FFF ;}
+.fourth .btn {color: white;border-color:  #f2855e;}
+.fourth .btn:hover {background-color: #f2855e ; border-color: white; color: white;}
+.fourth .copyright{ background: #194769;color:  white;}
+.fourth .h1 {color: #f2855e;}
+.fourth a {color: #f2855e ;}
+/*end fourth color*/
